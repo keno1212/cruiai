@@ -1,0 +1,18 @@
+# 依赖与构建产物
+web/node_modules/
+web/dist/
+node_modules/
+dist/
+
+# 项目记忆（本地，不入库）
+.workbuddy/
+
+# 后端（非静态站点部分，单独仓库管理）
+server/
+
+# 旧构建目录
+web-dist/
+
+# 系统/编辑器
+.DS_Store
+*.local
